@@ -1,0 +1,381 @@
+/* CSS Document
+Made with Adobe™ Dreamweaver CSS Editor
+Authored by: Jan Michael Garde
+Created: January 29, 2014 */
+
+@font-face {
+
+    font-family: helv_font;
+	
+	src: url('includes/fonts/helv.eot');
+
+    src: local(helv_font), url('includes/fonts/helv.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: ries_font;
+
+	src: url('includes/fonts/ries.eot');
+
+    src: local(ries_font), url('includes/fonts/ries.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: segsc_font;
+	
+	src: url('includes/fonts/segsc.eot');
+
+    src: local(segsc_font), url('includes/fonts/segsc.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: segwp_font;
+
+	src: url('includes/fonts/segwp.eot');
+
+    src: local(segwp_font), url('includes/fonts/segwp.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: segwpl_font;
+	
+	src: url('includes/fonts/segwpl.eot');
+	
+    src: local(segwpl_font), url('includes/fonts/segwpl.ttf') format('opentype');
+
+}
+html
+{
+	font-family: segwp_font;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	}
+body
+{
+	background-attachment: scroll;
+	background: url(images/bg.png);
+	background-repeat:repeat-x;
+	background-position:left top;
+	background-color: #496100;
+	margin: 0px;
+}
+
+p
+{	
+	text-indent: 20pt;
+	font-family: segwp_font;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+
+
+form
+{
+	font-size:14pt;	
+}
+
+#rsrv_form
+{	
+	float: left;
+	padding: 10px;
+	font-size: 10px;
+	color:#FFF;
+	max-width: 380px;
+	min-height: 300px;
+	background:#8bb051;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#rsrv_form label
+
+{
+	font-size:12pt;
+	color:#FFF;
+	padding: 20px 0px 20px 0px;
+}
+
+
+#rsrv_form input[type=text]
+	{
+		padding: 5px;
+		margin-top:10px;
+		width: 200px;
+		border: 1px solid #060;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+#rsrv_form input[type=submit]
+	{
+		padding: 5px;
+		margin-top:10px;
+		width: 145px;
+		border: 1px solid #060;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+	#rsrv_form input[type=reset]
+	{
+		padding: 5px;
+		margin-top:10px;
+		width: 145px;
+		border: 1px solid #060;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+#rsrv_form input[type=button]
+	{
+		padding: 2px;
+		width: auto;
+		border: 1px solid #060;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+#rsrv_form select
+	{
+		
+		padding: 5px;
+		margin-top:10px;
+		width: 60px;
+		border: 1px solid #060;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+#rsrv_form fieldset
+	{
+		padding:10px;
+		margin: 10px;
+		border: 1px solid #FFF;
+		-webkit-border-radius: 3px;
+		border-radius: 2px;
+	}
+
+
+#rsrv_form fieldset label
+{
+	font-face:segwp-font;
+	padding:5px;
+}
+
+#rsrv_form textarea {
+		padding: 5px;
+		margin-top:10px;
+		border: 1px solid #060;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+}
+
+
+#headr_img
+{
+	background-color: transparent;
+	background:url(images/header_graphic_04.png);
+	background-position:bottom right;
+	height: 300px;
+	border: none;
+}
+
+#main_nav
+{
+	font-family: segwp_font;
+	float:left;
+	color:#FFF;
+	text-align:right;
+	width: 500px;
+	height: 30px;
+	margin: 240px 10px 0px 0px;
+}
+
+#main_nav a {
+	text-decoration:none;
+	font-size:12pt;
+	display:inline;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_nav a:hover {
+	color:#92D801;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: underline;
+}
+
+.main_container
+{
+	background-color: #fff8d4;
+	max-width: 1024px;
+	min-width: 1024px;
+	height: 100%;
+	min-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.main_container a img
+{
+	border-style:none;
+	vertical-align:bottom;
+}
+
+#content_container
+{
+	width: 900px;
+	max-height: auto;
+	min-height:400px;
+	padding: 20px 60px 10px 60px;
+}
+
+#content_left
+{
+	position:inherit;
+	display: inline-block;
+}
+
+#content_right
+{
+	display: inline-block;
+	margin: 10px 0px 0px 30px;
+}
+
+#home_header
+{
+	font-family:segsc_font;
+	font-size: 16pt;
+	color: #2b3e00;
+}
+
+#welcome
+{
+	height: auto;
+	width: 390px;
+	border-radius: 2px;
+	padding: 0px 20px 0px 20px;
+	margin:	0px 20px 20px 0px;
+	display:inline-block;
+}
+
+#img_shadow
+{
+	display:inline-block;
+}
+
+#img_shadow img
+{
+	border: solid 1px #d7bd96;
+	margin-top: 20px;
+}
+
+.call_to_action
+{
+	width:202px;
+	height:52px;
+	font-family: helv_font;
+	text-align:center;
+	font-size: 22px;
+	text-decoration: none;
+	background-color: transparent;
+	background-repeat:no-repeat;
+	padding: 12px 1px 1px 1px; 
+	vertical-align: middle;
+}
+
+.call_to_action#grn
+{
+	display:inline-block;
+	background-image:url(images/action_grn.png);
+	margin: 30px 20px 30px 20px;
+}
+
+.call_to_action#orn
+{	
+display:inline-block;
+	background-image:url(images/action_orn.png);
+	margin: 30px 0px 30px 0px;
+}
+
+.call_to_action a
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+#call_to_action a:hover
+{
+	text-decoration:none;
+}
+
+#form_disclaimer
+{
+	font-size: 9pt;
+	color:#C03;
+}
+
+#rsrv_notifier
+
+{
+	color:#F00;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+#footer_container
+{
+	display:inline-block;
+	font-size: 9pt;
+	color:#666;
+	max-width: 984px;
+	max-height: 200px;
+	margin-top: 30px;
+	padding: 10px 20px 10px 20px;
+		
+}
+
+#footer_container a:hover
+{
+	color:#333;
+	text-decoration:underline;
+}
+.check_avail
+{
+	text-align:center;
+	background-color:#FF9;
+	border: 1px solid #030;
+	margin:15px auto auto auto;
+	width: 150px;
+	height: 25px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.check_avail a
+{
+	text-decoration:none;
+	color:#060;
+	font-face: segwpl_font;
+	font-size: 14px;
+}
+.check_avail a:hover
+{
+	text-decoration:underline;
+}
+#map-canvas 
+{
+        height: 375px;
+        margin: 0px;
+        padding: 0px
+}

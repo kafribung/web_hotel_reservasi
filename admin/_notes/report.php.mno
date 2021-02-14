@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_user" value="name:user_id;datatype:int,name:user_name;datatype:string,name:user_pw;datatype:string,name:user_full;datatype:string,name:user_role;datatype:string" />
+	<infoitem key="UD_report" value="name:rsrv_id;datatype:int,name:rsrv_timestamp;datatype:timestamp,name:rsrv_first_name;datatype:string,name:rsrv_last_name;datatype:string,name:rsrv_email;datatype:string,name:rsrv_contact;datatype:string,name:rsrv_room;datatype:blob,name:rsrv_bed;datatype:int,name:rsrv_pillow;datatype:int,name:rsrv_towel;datatype:int,name:rsrv_kit;datatype:int,name:rsrv_start;datatype:date,name:rsrv_end;datatype:date,name:rsrv_guest;datatype:string,name:rsrv_notes;datatype:blob,name:diff;datatype:int" />
+	<infoitem key="UD_Recordset1" value="name:rsrv_id;datatype:int,name:diff;datatype:int" />
+</info>

@@ -1,0 +1,392 @@
+/* CSS Document
+Made with Adobe™ Dreamweaver CSS Editor
+Authored by: Jan Michael Garde
+Created: January 29, 2014 */
+
+@font-face {
+
+    font-family: helv_font;
+	
+	src: url('includes/fonts/helv.eot');
+
+    src: local(helv_font), url('includes/fonts/helv.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: ries_font;
+
+	src: url('includes/fonts/ries.eot');
+
+    src: local(ries_font), url('includes/fonts/ries.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: segsc_font;
+	
+	src: url('includes/fonts/segsc.eot');
+
+    src: local(segsc_font), url('includes/fonts/segsc.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: segwp_font;
+
+	src: url('includes/fonts/segwp.eot');
+
+    src: local(segwp_font), url('includes/fonts/segwp.ttf') format('opentype');
+
+}
+
+@font-face {
+
+    font-family: segwpl_font;
+	
+	src: url('includes/fonts/segwpl.eot');
+	
+    src: local(segwpl_font), url('includes/fonts/segwpl.ttf') format('opentype');
+
+}
+html
+{
+	font-family: helv_font;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	}
+body
+{
+	background-color:#F2F2F2;
+	margin: 0px;
+}
+img 
+	{
+		border: none;
+	}
+	
+a
+	{	
+		text-align:center;
+		text-decoration:none;
+		font: Trebuchet MS;
+		color:#281100;
+	}
+	
+a:hover
+	{
+		color:#090;
+		text-decoration:underline;
+	}
+	
+.top_container
+{
+	width: 100%;
+	height: 50px;
+	padding: 15px 0px 0px 0px;
+	/*background:url(img/top_bg.png) repeat-x fixed;*/
+	background-color:#629100;
+}
+
+#panel_name
+{
+	margin-left: 10px;
+	color:#FFF;
+	font-family: helv_font;
+	font-size: 24pt;
+	width:250px;
+	float:left;
+}
+
+#user
+{
+	float:right;
+	margin-right: 40px;
+	color:#FFF;
+	font-size: 11pt;
+	width:300px;
+}
+
+#user a
+{
+	color:#FFF;
+	font-size: 11pt;	
+}
+
+#menu
+{
+	float: left;
+	position: relative;
+	z-index: 2000;
+	list-style: none;
+	display: block;
+	outline: none;
+	margin-top:0px;
+	padding-left:0px;
+	width:180px;
+	background-color:#FFF;
+	border-right:#CCC 1px solid;
+}
+
+#menu a
+{
+	color:#333;
+	font-size:14px;
+	text-decoration:none;
+	margin-left:10px;
+}
+#menu a:hover
+{
+	color:#629100;
+	
+}
+
+
+#menu li
+{
+	border-bottom: solid #CCC 1px;
+	padding-top:10px;
+	height: 30px;
+}
+#container
+	{
+		max-width: 900px;
+		min-height: 500px;
+		background-color:#FFF;
+		border: solid 1px #CCC;
+		border-radius: 5px;
+		margin: 5em auto auto auto;
+		padding: 20px;
+		
+	}
+	#content_left
+{
+	position:inherit;
+	display: inline-block;
+}
+
+#content_right
+{
+	display: inline-block;
+	margin: 10px 0px 0px 30px;
+}
+	
+h1
+	{
+		text-align:center;
+	}
+
+#login_box
+	{
+	width: 330px;
+	height: 250px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	padding: 20px 30px 0px 30px;
+	box-shadow: 0px 5px 5px #000;
+	background-color:#f4f4f4;
+	background-image: url(img/box_bg.png);
+	background-repeat: repeat-x;
+	background-position:bottom;
+	}
+#login_box form
+	{
+		float:left;
+		text-align: center;
+		width: 220px;
+		margin: 5px 0px 10px 0px;
+	}
+#login_box form img 
+	{
+		float:left
+		text-align:center;
+		padding-bottom:10px;
+	}
+#login_box #img
+	{
+		padding-left: 20px;
+		float:right;
+	}
+#login_box input[type=text],
+input[type=password]
+	{
+		color:#333;
+		height:19px;
+		padding: 5px;
+		margin-top:10px;
+		font-size:14px;
+		width: 200px;
+		border: 1px solid #aaaaaa;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+	}
+#login_box input[type=submit]
+	{	
+	height:32px;
+	width:112px;
+	margin-top:20px;
+	font-size:16px;
+	text-align:center;
+	color:#FFF;
+	background-image:url(img/login_btn.png);
+	background-color:transparent;
+	background-position:top;
+	border:none;
+	border-radius:5px;
+	}
+#login_box input[type=submit]:hover
+	{
+	background-position: 0px -32px;
+	}
+#login_box input[type=submit]:active
+	{
+	background-position: 0px -64px;
+	}
+#form_disclaimer
+{
+	font-size: 9pt;
+	color:#C03;
+}
+
+table
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+}
+
+#dialog {
+    display:hidden;
+}
+
+.data_table
+{
+	margin:auto;
+	border: 1px #333 solid;
+	min-width: 350px;
+}
+.data_table #tr
+{
+	font-face: segwpl_font;
+	background-color:#629100;
+	font-size:14px;
+	color:#FFF;
+	text-align:center;
+	
+}
+
+.data_table td
+{
+	text-align:center;
+border-bottom: 1px solid #999;
+}
+
+form
+{
+	font-size:14pt;	
+}
+
+#rsrv_form
+{	
+	float: left;
+	padding: 10px;
+	font-size: 10px;
+	color:#FFF;
+	max-width: 380px;
+	min-height: 300px;
+	background:#8bb051;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#rsrv_form label
+
+{
+	font-size:12pt;
+	color:#FFF;
+	padding: 20px 0px 20px 0px;
+}
+
+
+#rsrv_form input[type=text]
+	{
+		padding: 5px;
+		margin-top:10px;
+		width: 200px;
+		border: 1px solid #060;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+#rsrv_form input[type=submit]
+	{
+		padding: 5px;
+		margin-top:10px;
+		width: 145px;
+		border: 1px solid #060;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+	#rsrv_form input[type=reset]
+	{
+		padding: 5px;
+		margin-top:10px;
+		width: 145px;
+		border: 1px solid #060;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+#rsrv_form input[type=button]
+	{
+		padding: 2px;
+		width: auto;
+		border: 1px solid #060;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+	}
+
+#rsrv_form select
+	{
+		
+		padding: 5px;
+		margin-top:10px;
+		width: 60px;
+		border: 1px solid #060;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+
+#rsrv_form fieldset
+	{
+		padding:10px;
+		margin: 10px;
+		border: 1px solid #FFF;
+		-webkit-border-radius: 3px;
+		border-radius: 2px;
+	}
+
+
+#rsrv_form fieldset label
+{
+	font-face:segwp-font;
+	padding:5px;
+}
+
+#rsrv_form textarea {
+		padding: 5px;
+		margin-top:10px;
+		border: 1px solid #060;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+}
